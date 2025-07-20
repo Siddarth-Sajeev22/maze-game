@@ -4,6 +4,8 @@
 
 Built with ❤️ using **FastAPI**, **React + Vite**, and advanced **speech + vision** technology.
 
+🔗 **Live Demo**: [maze-game-murex.vercel.app](https://maze-game-murex.vercel.app/)
+
 ---
 
 ## 🧠 What’s Inside?
