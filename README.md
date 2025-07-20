@@ -4,7 +4,7 @@
 
 Built with ❤️ using **FastAPI**, **React + Vite**, and advanced **speech + vision** technology.
 
-🔗 **Live Demo**: [maze-game-murex.vercel.app](https://maze-game-murex.vercel.app/)
+## 🔗 Live Demo: [maze-game-murex.vercel.app](https://maze-game-murex.vercel.app/)
 
 ---
 
@@ -73,7 +73,17 @@ App available at: [http://localhost:5173](http://localhost:5173)
 
 ---
 
+Sure! Here's an updated version of your **Docker Setup** section that includes:
+
+1. Instructions for loading from the provided `.tar` bundle (as before).
+2. An **alternative method** using the repository directly with the command you provided:
+   `docker compose -f docker-compose.dev.yml up --build`
+
+---
+
 ### 🐳 Docker Setup
+
+#### 📦 Option 1: Use Prebuilt Docker Bundle
 
 Download the Zip File: [Drive Link](https://drive.google.com/file/d/1Dv3CFXASk42aPiDPiXCRwtf76sJJXPHj/view?usp=drive_link)
 
@@ -84,8 +94,20 @@ docker load -i gameconsole_bundle.tar
 docker compose up
 ```
 
-Go to [http://localhost](http://localhost)
+---
 
+#### 🛠️ Option 2: Build Docker Containers from Source
+
+If you cloned this repository and want to build the Docker containers directly:
+
+```bash
+docker compose -f docker-compose.dev.yml up --build
+```
+
+This will spin up the development containers for both frontend and backend using the provided configuration.
+
+
+Go to [http://localhost](http://localhost)
 ---
 
 ## 🕹️ Game Modes
