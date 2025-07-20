@@ -17,6 +17,12 @@ Built with ❤️ using **FastAPI**, **React + Vite**, and advanced **speech + v
 
 ---
 
+## 📸 Game Console Preview
+
+![Game Console Homepage](./frontend/public/game-console-home.png)
+
+---
+
 ## 🚀 Tech Stack
 
 | Layer          | Technology                                             |
@@ -41,69 +47,42 @@ Built with ❤️ using **FastAPI**, **React + Vite**, and advanced **speech + v
 
 ### 🐍 Backend Setup (FastAPI)
 
-1. Navigate to the backend directory:
+```bash
+cd backend
+python3.13 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python3 app.py
+```
 
-   ```sh
-   cd backend
-   ```
-2. Create and activate a Python virtual environment:
-
-   ```sh
-   python3.13 -m venv venv
-   source venv/bin/activate
-   ```
-3. Install backend dependencies:
-
-   ```sh
-   pip install -r requirements.txt
-   ```
-4. Start the server:
-
-   ```sh
-   python3 app.py
-   ```
-5. Access the API and interactive docs at:
-   [http://localhost:8000/docs](http://localhost:8000/docs)
+Visit [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ---
 
 ### 🌐 Frontend Setup (React + Vite)
 
-1. Navigate to the frontend directory:
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
-   ```sh
-   cd frontend
-   ```
-2. Install frontend dependencies:
-
-   ```sh
-   npm install
-   ```
-3. Start the development server:
-
-   ```sh
-   npm run dev
-   ```
-4. App is live at:
-   [http://localhost:5173](http://localhost:5173)
+App available at: [http://localhost:5173](http://localhost:5173)
 
 ---
 
 ### 🐳 Docker Setup
 
-To spin up everything with Docker:
+Download the Zip File: [Drive Link](https://drive.google.com/file/d/1Dv3CFXASk42aPiDPiXCRwtf76sJJXPHj/view?usp=drive_link)
 
-Download the Zip File [Drive Link](https://drive.google.com/file/d/1Dv3CFXASk42aPiDPiXCRwtf76sJJXPHj/view?usp=drive_link) and extract the contents
-Then Run:
-   ```sh
-   docker load -i gameconsole_bundle.tar
-   ```
+Then run:
 
-   ```sh
-   docker compose up
-   ```
-This will start all containers
-   * To access the web interface, open [http://localhost](http://localhost)
+```bash
+docker load -i gameconsole_bundle.tar
+docker compose up
+```
+
+Go to [http://localhost](http://localhost)
 
 ---
 
@@ -113,9 +92,15 @@ This will start all containers
 
 Navigate procedurally generated mazes using **audio instructions**. Perfect for players with visual impairments.
 
-### 🗣️ Tile Game
+![Echo Maze Game](./frontend/public/echo-maze.png)
 
-Solve dynamic puzzles with **natural voice commands** and real-time speech recognition.
+---
+
+### 🗣️ Memory Tiles Game
+
+Solve dynamic puzzles using **natural voice commands** and **real-time speech recognition**.
+
+![Memory Tiles Game](./frontend/public/memory-tiles.png)
 
 ---
 
@@ -129,9 +114,7 @@ Solve dynamic puzzles with **natural voice commands** and real-time speech recog
 
 ## 📚 API Documentation
 
-The FastAPI backend includes full interactive API documentation at:
-
-👉 [http://localhost:8000/docs](http://localhost:8000/docs)
+Visit [http://localhost:8000/docs](http://localhost:8000/docs) for interactive docs.
 
 ---
 
@@ -152,7 +135,13 @@ Game-Console/
 ├── nginx/           # Nginx config
 └── README.md
 ```
-Our frontend follows **Atomic Design**, a UI architecture methodology by Brad Frost, which breaks interfaces into smaller, reusable building blocks.
+
+---
+
+## 🧱 Atomic Design System
+
+We follow **Atomic Design** for scalable and maintainable UI development.
+
 | Level         | Description                                                                            |
 |---------------|----------------------------------------------------------------------------------------|
 | **Atoms**     | Smallest building blocks like buttons, icons, and inputs.                              |
@@ -171,7 +160,7 @@ Game Console bridges the gap between accessibility and entertainment, allowing *
 
 ## 🤝 Contributing
 
-We welcome all contributions!
+We welcome all contributions!  
 Fork, improve, and submit a PR — or just open an issue to start a discussion.
 
 ---
