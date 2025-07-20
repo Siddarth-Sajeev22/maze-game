@@ -93,12 +93,17 @@ Built with ❤️ using **FastAPI**, **React + Vite**, and advanced **speech + v
 
 To spin up everything with Docker:
 
-```sh
-docker-compose up --build
-```
+Download the Zip File [Drive Link](https://drive.google.com/file/d/1Dv3CFXASk42aPiDPiXCRwtf76sJJXPHj/view?usp=drive_link) and extract the contents
+Then Run:
+   ```sh
+   docker load -i gameconsole_bundle.tar
+   ```
 
-Access the full platform at:
-[http://localhost](http://localhost)
+   ```sh
+   docker compose up
+   ```
+This will start all containers
+   * To access the web interface, open [http://localhost](http://localhost)
 
 ---
 
@@ -147,6 +152,14 @@ Game-Console/
 ├── nginx/           # Nginx config
 └── README.md
 ```
+Our frontend follows **Atomic Design**, a UI architecture methodology by Brad Frost, which breaks interfaces into smaller, reusable building blocks.
+| Level         | Description                                                                            |
+|---------------|----------------------------------------------------------------------------------------|
+| **Atoms**     | Smallest building blocks like buttons, icons, and inputs.                              |
+| **Molecules** | Groups of atoms forming simple components (e.g., a search bar with an input + button). |
+| **Organisms** | Complex sections built from molecules (e.g., a navigation bar, a game board).          |
+| **Templates** | Page-level layouts defining structure but without real content.                        |
+| **Pages**     | Final pages with real content, assembled from templates and components.                |
 
 ---
 
