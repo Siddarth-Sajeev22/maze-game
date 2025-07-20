@@ -49,7 +49,7 @@ Built with ❤️ using **FastAPI**, **React + Vite**, and advanced **speech + v
 
 ```bash
 cd backend
-python3.13 -m venv venv
+python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 python3 app.py
