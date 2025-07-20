@@ -4,7 +4,7 @@
 
 Built with ❤️ using **FastAPI**, **React + Vite**, and advanced **speech + vision** technology.
 
-## 🔗 Live Demo: [maze-game-murex.vercel.app](https://maze-game-murex.vercel.app/)
+### 🔗 **Live Demo**: [maze-game-murex.vercel.app](https://maze-game-murex.vercel.app/)
 
 ---
 
@@ -106,8 +106,8 @@ docker compose -f docker-compose.dev.yml up --build
 
 This will spin up the development containers for both frontend and backend using the provided configuration.
 
-
 Go to [http://localhost](http://localhost)
+
 ---
 
 ## 🕹️ Game Modes
