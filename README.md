@@ -73,14 +73,6 @@ App available at: [http://localhost:5173](http://localhost:5173)
 
 ---
 
-Sure! Here's an updated version of your **Docker Setup** section that includes:
-
-1. Instructions for loading from the provided `.tar` bundle (as before).
-2. An **alternative method** using the repository directly with the command you provided:
-   `docker compose -f docker-compose.dev.yml up --build`
-
----
-
 ### 🐳 Docker Setup
 
 #### 📦 Option 1: Use Prebuilt Docker Bundle
